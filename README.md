@@ -19,6 +19,9 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
+- Fazendo a herança da classe Smartphone para a classe Nokia
+- Iniciando o construtor da classe Nokia
+- Herdando o método "InstalarAplicativo()" da classe Smartphone e sobrescrevendo
 ``` 
 namespace DesafioPOO.Models
 {
